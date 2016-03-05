@@ -1,0 +1,41 @@
+{
+  "name": "whey",
+  "version": "0.0.1",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo NOT IMPLEMENTED, use: gulp test"
+  },
+  "author": "Andrew Lawrence",
+  "dependencies": {
+    "browserify": "^9.0.3",
+    "es6-promise": "^3.0.2",
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-cssnano": "^2.0.0",
+    "gulp-react": "^3.1.0",
+    "gulp-sass": "^2.0.1",
+    "gulp-server-livereload": "^1.3.0",
+    "gulp-spawn-mocha": "^2.2.2",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.2.4",
+    "history": "^1.17.0",
+    "isomorphic-fetch": "^2.2.0",
+    "jest-cli": "^0.8.2",
+    "lodash": "^3.10.1",
+    "mocha": "^2.3.4",
+    "node-notifier": "^4.2.1",
+    "react": "^0.14.3",
+    "react-addons-test-utils": "^0.14.5",
+    "react-dom": "^0.14.3",
+    "react-router": "^1.0.3",
+    "react-tools": "^0.13.3",
+    "reactify": "^1.1.0",
+    "reflux": "^0.3.0",
+    "superagent": "^1.6.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^2.4.0"
+  },
+  "devDependencies": {}
+}
