@@ -10,6 +10,10 @@ module.exports = Reflux.createStore({
         this.trigger('change', this.storedData);
     },
     defaultAction1: function() {
+
+        // TODO: Remove; test
+        console.log('Default Action 1 invoked.');
+
         this.triggerChange();
     }
 });
