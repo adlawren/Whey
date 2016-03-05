@@ -7,6 +7,6 @@ module.exports = React.createClass({
         </div>
     },
     render: function() {
-        return <div>{this.content()}</div>
+        return <div className="list-group-item">{this.content()}</div>
     }
 });

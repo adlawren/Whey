@@ -18,18 +18,10 @@ module.exports = React.createClass({
 
             var items = [];
             for (var i = 0; i < this.props.items.length; ++i) {
-
-                // TODO: Remove; test
-                console.log('Next item:' + this.props.items[i].text);
-
                 items.push(
                     <ListItem item={this.props.items[i]} key={this.props.items[i].key} />
                 );
             }
-
-            // return <span>
-            //     Not Empty
-            // </span>
 
             return items;
         }

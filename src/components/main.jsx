@@ -6,6 +6,7 @@ var Actions = require('../actions');
 
 // Components
 var Footer = require('./common/footer');
+var Button = require('./common/button');
 var List = require('./common/list');
 
 // Stores
@@ -34,7 +35,7 @@ module.exports = React.createClass({
 
         var array = this.state.items;
         var len = array.length;
-        
+
         array.push({
             key: len,
             text: 'New Item ' + len
@@ -55,9 +56,8 @@ module.exports = React.createClass({
             return this.props.children;
         } else {
             return <div>
-                No children to render.<br />
-                <button onClick={this.onClickListener}>Test Button</button>
-                <List items={this.state.items}/>
+                <Button label="Test Label" onClickListener={this.onClickListener} />
+                <List items={this.state.items} />
             </div>
         }
     },
