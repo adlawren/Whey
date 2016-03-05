@@ -10,7 +10,7 @@ A tool that will encourage users to break goals into separable, actionable, trac
 	> gulp
 ```
 
-###Build Instructions###
+###Test Instructions###
 
 After the project has been built (see above), the tests may be run as follows:
 
