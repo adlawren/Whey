@@ -8,6 +8,7 @@ var Actions = require('../actions');
 var Footer = require('./common/footer');
 var Button = require('./common/button');
 var List = require('./common/list');
+var EditText = require('./common/edit-text.jsx');
 
 // Stores
 var DefaultStore = require('../stores/default-store');
@@ -56,6 +57,7 @@ module.exports = React.createClass({
             return this.props.children;
         } else {
             return <div>
+                <EditText />
                 <Button label="Test Label" onClickListener={this.onClickListener} />
                 <List items={this.state.items} />
             </div>
