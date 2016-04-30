@@ -6,7 +6,7 @@ module.exports = React.createClass({
             text: ''
         }
     },
-    onChangeListener: function(event) {
+    onChangeListener: function(event) {r
         this.setState({
             text: event.target.value
         });
